@@ -1,4 +1,4 @@
 # quizzes
 
-### Funciona basicamente como um quiz de racha-cuca
-##### Obtenha seu score e teste seu conhecimento sobre diversos assuntos
+### Oque é: Funciona basicamente como um quiz de racha-cuca
+##### Para que serve: Obtenha seu score e teste seu conhecimento sobre diversos assuntos
