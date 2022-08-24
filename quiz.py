@@ -1,6 +1,7 @@
 import time
 
 # Colocar versão portugues e ingles como escolha .... 
+# Colocar TODOS temas, e 2 sub temas para cada um
 
 print('Welcome to my quiz :)')
 #time.sleep(1)
@@ -44,7 +45,7 @@ if choice == '1':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the answer is Lion')
         ###########################################################
         question2 = print('Which of the following felines has a larger size?')
         answer = input(' (1) Cheetah\n (2) Leopard\n (3) Caracal\n (4) Ounce\n (5) Tiger\n')
@@ -52,7 +53,7 @@ if choice == '1':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the answer is Tiger')
         ###########################################################
         question3 = print('Which one of the next cats hunts at night?')
         answer = input(' (1) Lion\n (2) Cat\n (3) Tiger\n (4) Puma\n (5) Leopard\n')
@@ -60,15 +61,15 @@ if choice == '1':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the answer is Lion')
         ###########################################################
         question4 = print('Which of the following felines is smaller?')
-        answer = input(' (1) Lynx\n (2) Caracal\n (3) Fishing cat\n (4) Desert Cat\n')
+        answer = input(' (1) Lynx\n (2) Desert lynx\n (3) Fishing cat (Prionailurus viverrinus)\n (4) Sand Cat\n')
         if answer == '4':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the answer is Sand cat')
         ###########################################################
         question5 = print('The male lion is the slowest of all the big cats. True or false?')
         answer = input(' (1) True\n (2) False\n')
@@ -76,7 +77,7 @@ if choice == '1':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the answer is True')
         ###########################################################
         question6 = print('Which of the cats to follow has the best ability to climb trees?')
         answer = input(' (1) Tiger\n (2) Cat\n (3) Leopard\n (4) Puma\n')
@@ -84,31 +85,31 @@ if choice == '1':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')    
+            print('Incorrect, the answer is Leopard')    
         ###########################################################
         question7 = print('Which of the cats to follow has the greatest custom and ability to hunt birds?')
-        answer = input(' (1) Lynx\n (2) Caracal\n (3) House cat\n ')
+        answer = input(' (1) Lynx\n (2) Desert lynx\n (3) House cat\n ')
         if answer == '2':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the correct answer is Desert lynx')
         ###########################################################
-        question8 = print('What is the name of the largest tiger species today (2016)?')
+        question8 = print('What is the name of the largest tiger species today (2016)? TIP: s....... tiger')
         answer = input('Type an answer: ').lower()
         if answer == 'siberian tiger':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the correct answer is siberian tiger')
         ###########################################################
-        question9 = print('What is the name of the most recently discovered feline species?')
+        question9 = print('What is the name of the most recently discovered feline species? TIP: ne..b... panther')
         answer = input('Type an answer: ').lower()
         if answer == 'nebula panther':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the correct answer is nebula panther')
         ###########################################################
         question10 = print('How many breeds of domestic cats are there about?')
         answer = input(' (1) 80\n (2) 46\n (3) 60\n (4) 100\n')
@@ -116,7 +117,7 @@ if choice == '1':
             print('Correct!')
             score += 1
         else:
-            print('Incorrect')
+            print('Incorrect, the correct answer is 80')
 
 elif choice == '2':
     pass
@@ -127,6 +128,8 @@ elif choice == '4':
 else:
     print('Digite um número de tema válido')
 
+
+# Creating score definition
 if score == 10:
     print(f'OOWWW... YOU ARE INSANE, YOUR SCORE: {score}/10')
 elif score >= 7:
